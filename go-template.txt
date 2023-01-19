@@ -1,0 +1,16 @@
+// 
+//  {{.Name}}.tsx
+//  {{.Project}}
+//
+//  Created by {{.Author}} on {{.Today}}
+//  Copyright © {{.Year}} {{.Company}}. All rights reserved.
+//
+
+import (
+    "fmt"
+)
+
+func {{.name}}() {
+    fmt.Println("{{.name}}(): no implementation")
+}
+

@@ -1,0 +1,13 @@
+// 
+//  {{.Name}}.cpp
+//  {{.Project}}
+//
+//  Created by {{.Author}} on {{.Today}}
+//  Copyright © {{.Year}} {{.Company}}. All rights reserved.
+//
+
+#include <iostream>
+
+int main(){
+    // implement {{.Name}} here
+}

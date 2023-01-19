@@ -1,0 +1,24 @@
+// 
+//  {{.Name}}.tsx
+//  {{.Project}}
+//
+//  Created by {{.Author}} on {{.Today}}
+//  Copyright © {{.Year}} {{.Company}}. All rights reserved.
+//
+
+import * as React from 'react'
+
+type props = {
+    children?: React.ReactNode
+}
+
+export default function {{.Title}}({children}: props) {
+
+    return (
+        <div>
+            <p>{{.Title}}</p>
+            {children}
+        </div>
+    )
+}
+

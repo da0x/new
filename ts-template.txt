@@ -1,0 +1,12 @@
+// 
+//  {{.Name}}.tsx
+//  {{.Project}}
+//
+//  Created by {{.Author}} on {{.Today}}
+//  Copyright © {{.Year}} {{.Company}}. All rights reserved.
+//
+
+export default function {{.Name}}() {
+    console.log("{{.Title}}(): no implementation")
+}
+

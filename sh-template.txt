@@ -1,0 +1,17 @@
+#!/bin/bash
+# 
+#  {{.Name}}.sh
+#  {{.Project}}
+#
+#  Created by {{.Author}} on {{.Today}}
+#  Copyright © {{.Year}} {{.Company}}. All rights reserved.
+#
+
+set -e
+set -o pipefail
+
+if [[ -z $1 ]]; then
+    echo 'Usage: ./{{.Name}}.sh <parameter>'
+    exit -1
+fi
+
